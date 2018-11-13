@@ -1,6 +1,6 @@
 // +build js,wasm
 
-package event
+package vuego
 
 import "syscall/js"
 
