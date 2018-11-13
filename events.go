@@ -8,7 +8,7 @@ type XMLHttpRequest struct{
   js.Value
 }
 
-func New() *XMLHttpRequest {
+func NewEvent() *XMLHttpRequest {
   return &XMLHttpRequest{
     Value: js.Global().Get("XMLHttpRequest").New()
   }
