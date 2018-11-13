@@ -1,0 +1,13 @@
+package vuego
+
+//Any ...
+type Any = interface{}
+
+//Methods ...
+type Methods map[string]func(Any)
+
+//Filters ...
+type Filters map[string]func(Any) Any
+
+//Watch ...
+type Watch = map[string]Any
